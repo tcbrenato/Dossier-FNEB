@@ -1,0 +1,541 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.nav-link {
+    color: #0117FE !important;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #000080 !important; /* Adjust hover color if needed */
+}
+
+#adhere-button {
+    background-color: #0117FE;
+    color: white !important;
+    font-weight: bold;
+}
+
+.dropdown-menu a:hover {
+    background-color: #0117FE;
+    color: white !important;
+}
+
+.prouesse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.252);
+    background-color: #1D3E8D;
+}
+
+.hero-content {
+    color: #f9fd08;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.hero-content h1 {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    line-height: 1.2; /* Ajustement de l'interligne pour une meilleure lisibilité */
+}
+
+.hero-content p {
+    font-size: 1.25rem;
+    color: #fdfcfb;
+    margin: 1rem 0;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.hero-content .btn {
+    width: 218px;
+    height: 49px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #1D3E8D;
+    background-color: #dcfe00;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+@media (max-width: 992px) {
+    .prouesse {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content {
+        margin-bottom: 2rem;
+    }
+
+    .hero-image img {
+        width: 80%;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-content h1 {
+        font-size: 2.5rem; /* Taille réduite pour les petits écrans */
+        margin-bottom: 1rem; /* Ajustement de l'espace en bas */
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .hero-content .btn {
+        width: 100%;
+        font-size: 1rem;
+    }
+}
+
+.presentation {
+    background-color: #ffffff;
+    padding: 50px 0;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+    color: #333;
+}
+
+.text h2 {
+    font-size: 2rem;
+    color: #1D3E8D;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.more-text {
+    display: none; /* Masquer le texte supplémentaire par défaut */
+}
+
+.text-content {
+    overflow: hidden; /* Assure que le texte long ne dépasse pas le bloc */
+}
+
+.btn {
+    background-color: #1D3E8D;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+@media (max-width: 992px) {
+    .presentation {
+        padding: 30px 0;
+    }
+
+    .text h2 {
+        font-size: 1.5rem;
+    }
+
+    .text p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .presentation {
+        padding: 20px 0;
+    }
+
+    .photo {
+        margin-bottom: 1.5rem;
+    }
+
+    .text h2 {
+        font-size: 1.25rem;
+    }
+
+    .text p {
+        font-size: 0.85rem;
+    }
+}
+
+.mission-values-engagement {
+    background-image: url('./assets/Fond\ 1.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    color: #333;
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #1D3E8D;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.card-text {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.card-text ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.card-text ul li {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 992px) {
+    .card-title {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-title {
+        font-size: 1rem;
+    }
+
+    .card-text {
+        font-size: 0.9rem;
+    }
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.card.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-title h2 {
+    font-size: 2.5rem;
+    color: #1D3E8D;
+    margin-bottom: 20px;
+    font-weight: 700;
+    opacity: 15;
+    transform: translateY(-20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.devenir-partenaire {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.devenir-partenaire h2 {
+    font-size: 2rem;
+    color: #1D3E8D;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.devenir-partenaire p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+.devenir-partenaire ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.devenir-partenaire ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.partner-form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.partner-form .form-group {
+    margin-bottom: 15px;
+}
+
+.partner-form .form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.partner-form .btn-primary {
+    background-color: #1D3E8D;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.partner-form .btn-primary:hover {
+    background-color: #154d8d;
+}
+
+@media (max-width: 768px) {
+    .devenir-partenaire h2 {
+        font-size: 1.5rem;
+    }
+    .partner-form .form-control {
+        font-size: 0.9rem;
+    }
+    .partner-form .btn-primary {
+        font-size: 0.9rem;
+    }
+}
+
+
+.newsletter {
+    background: url('./assets/image\ fond\ fille.jpg') no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+    position: relative;
+}
+
+.newsletter::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Ajoute un filtre semi-transparent */
+    z-index: 1;
+}
+
+.newsletter .container {
+    position: relative;
+    z-index: 2; /* Place le contenu au-dessus du filtre */
+}
+
+.newsletter h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.newsletter p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.newsletter-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Fond semi-transparent pour le formulaire */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 2; /* Assure que le formulaire est au-dessus du filtre */
+}
+
+.newsletter-form .form-control {
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+    padding: 10px;
+}
+
+.newsletter-form .btn-light {
+    background-color: #e1ff00;
+    color: #1D3E8D;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-form .btn-light:hover {
+    background-color: #f8f9fa;
+}
+
+@media (max-width: 768px) {
+    .newsletter h2 {
+        font-size: 2rem;
+    }
+    .newsletter p {
+        font-size: 1rem;
+    }
+    .newsletter-form .form-control {
+        font-size: 0.9rem;
+    }
+    .newsletter-form .btn-light {
+        font-size: 0.9rem;
+    }
+}
+/* Style pour le bouton WhatsApp */
+.btn-whatsapp {
+    background-color: #25D366; /* Vert de WhatsApp */
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 25px; /* Bord arrondi */
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.btn-whatsapp i {
+    margin-right: 8px; /* Espacement entre l'icône et le texte */
+}
+
+.btn-whatsapp:hover {
+    background-color: #1EBE66; /* Couleur de survol */
+}
+
+/* Style du footer */
+.footer {
+    background-color: #00274d; /* Bleu nuit */
+    color: #ffffff;
+    padding: 20px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #dcfe00;
+}
+
+.social-icon {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #dcfe00;
+}
+
+.info-flash {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.8); /* Fond légèrement opaque */
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    transition: left 10s linear;
+    z-index: 1; /* Assure que le texte est au-dessus du footer */
+}
+
+.info-flash a {
+    color: #dcfe00;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.info-flash:hover a {
+    color: #ffffff;
+}
+
+@keyframes slide-left {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.info-flash {
+    animation: slide-left 20s linear infinite;
+}
+
+/* Style pour le logo dans le footer */
+.footer-logo {
+    max-width: 150px; /* Ajuste la taille du logo */
+    margin: 0 auto;
+    display: block;
+}
+
+
