@@ -1,0 +1,54 @@
+/* annuaire.css */
+body {
+    background-color: #f8f9fa; /* Couleur de fond pour la page */
+}
+
+.annuaire-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    background-color: #28a745; /* Fond vert */
+    padding: 2rem;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.annuaire-card {
+    flex: 1 1 calc(33.333% - 2rem); /* 3 colonnes avec espace entre */
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+    animation: slideIn 0.5s ease-out;
+}
+
+.annuaire-card h4 {
+    margin-bottom: 0.5rem;
+}
+
+.annuaire-card p {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.annuaire-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

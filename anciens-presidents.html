@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Institutions Spécialisées - FNEB</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="annuaire.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="./assets/Logo FNEB.png"
+            alt="FNEB Logo"
+            style="height: 80px"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownFNEB"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                La FNEB
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownFNEB">
+                <a class="dropdown-item" href="institutions.html"
+                  >Institutions spécialisées</a
+                >
+                <a class="dropdown-item" href="anciens-presidents.html"
+                  >Annuaires des anciens présidents</a
+                >
+                <a class="dropdown-item" href="membres-actuels.html"
+                  >Membres actuels de la Fédération</a
+                >
+                <a class="dropdown-item" href="programme-action.html"
+                  >Programme d'action Fédéral</a
+                >
+                <a class="dropdown-item" href="bue-actuels.html"
+                  >Membres BUE et Responsables</a
+                >
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownPublications"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Publications
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownPublications"
+              >
+                <a class="dropdown-item" href="actualites.html">Actualités</a>
+                <a class="dropdown-item" href="videos.html">Vidéos</a>
+                <a class="dropdown-item" href="documents.html">Documents</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownOpportunites"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Opportunités
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownOpportunites"
+              >
+                <a class="dropdown-item" href="offres-emploi.html"
+                  >Offres d'emploi</a
+                >
+                <a class="dropdown-item" href="publicites-universitaires.html"
+                  >Espace Publicités Universitaire</a
+                >
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownUAC"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                l'UAC
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownUAC">
+                <a class="dropdown-item" href="inscription.html">Inscription</a>
+                <a class="dropdown-item" href="infos-campus.html"
+                  >Infos du Campus</a
+                >
+              </div>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link btn btn-primary text-white"
+                id="adhere-button"
+                href="#"
+                >Adhérer</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.facebook.com/fnebofficiel"
+                target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://wa.me/+22966056694"
+                target="_blank"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tel:+22966056694"
+                ><i class="fas fa-phone"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annuaire des Anciens Présidents</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Styles CSS globaux -->
+    <link href="styles.css" rel="stylesheet">
+    <!-- Styles CSS spécifiques à la page -->
+    <link href="annuaire.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Accueil</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="la-fneb.html">La FNEB</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="annuaire.html">Annuaire des Anciens Présidents</a>
+                    </li>
+                    <!-- Ajoutez d'autres liens si nécessaire -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenu de la page -->
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Les P/BEF de 1991 à 2024</h2>
+        <div class="row">
+            <div class="col-12">
+                <div class="annuaire-grid">
+                    <div class="annuaire-card">
+                        <h4>2022-2024</h4>
+                        <p>In’tisor KOUDOGBO</p>
+                    </div>
+                    <div class="annuaire-card">
+                        <h4>2021-2022</h4>
+                        <p>Igor TOSSOU</p>
+                    </div>
+                    <div class="annuaire-card">
+                        <h4>2019-2021</h4>
+                        <p>Venceslas AKAKPO</p>
+                    </div>
+                    <div class="annuaire-card">
+                        <h4>2018-2019</h4>
+                        <p>Godline AGBIDINOUKOUN</p>
+                    </div>
+                    <div class="annuaire-card">
+                        <h4>2017-2018</h4>
+                        <p>Alimi GOUNOU</p>
+                    </div>
+                    <div class="annuaire-card">
+                        <h4>2015-2017</h4>
+                        <p>Emmanuel ASSIMADA</p>
+                    </div>
+                    <div class="annuaire-card">
+                        <h4>2014-2015</h4>
+                        <p>Bill KINGNINOUHO</p>
+                    </div>
+                    <div class="annuaire-card">
+                        <h4>2013-2014</h4>
+                        <p>Camille VODOUNOU</p>
+                    </div>
+                    <div class="annuaire-card">
+                        <h4>2012-2013</h4>
+                        <p>Rodrigue AGBO</p>
+                    </div>
+                    <div class="annuaire-card">
+                        <h4>2011-2012</h4>
+                        <p>Smith AHOUANDJINOU</p>
+                    </div>
+                    <div class="annuaire-card">
+                        <h4>2010-2011</h4>
+                        <p>François TOBALATCHE</p>
+                    </div>
+                    <div class="annuaire-card">
+                        <h4>2009-2010</h4>
+                        <p>Alexis ACAKPO</p>
+                    </div>
+                    <div class="annuaire-card">
+                        <h4>2008-2009</h4>
+                        <p>Irené QUENUM</p>
+                    </div>
+                    <div class="annuaire-card">
+                        <h4>2007-2008</h4>
+                        <p>Romanique AGOSSOU</p>
+                    </div>
+                    <div class="annuaire-card">
+                        <h4>2006-2007</h4>
+                        <p>Tchan KOUDOUZOU</p>
+                    </div>
+                    <div class="annuaire-card">
+                        <h4>2005-2006</h4>
+                        <p>Guy MITOKPE</p>
+                    </div>
+                    <div class="annuaire-card">
+                        <h4>2004-2005</h4>
+                        <p>Innocent DANDJI</p>
+                    </div>
+                    <div class="annuaire-card">
+                        <h4>2003-2004</h4>
+                        <p>Ousman MAMA</p>
+                    </div>
+                    <div class="annuaire-card">
+                        <h4>2002-2003</h4>
+                        <p>Mouftaou BADA</p>
+                    </div>
+                    <div class="annuaire-card">
+                        <h4>2001-2002</h4>
+                        <p>Godfroid HONVO</p>
+                    </div>
+                    <div class="annuaire-card">
+                        <h4>2000-2001</h4>
+                        <p>Macaire AGBANTE</p>
+                    </div>
+                    <div class="annuaire-card">
+                        <h4>1999-2000</h4>
+                        <p>Edouard TCHIAKPE</p>
+                    </div>
+                    <div class="annuaire-card">
+                        <h4>1998-1999</h4>
+                        <p>Marcelin LAOUROU</p>
+                    </div>
+                    <div class="annuaire-card">
+                        <h4>1997-1998</h4>
+                        <p>Richard SENOU</p>
+                    </div>
+                    <div class="annuaire-card">
+                        <h4>1996-1997</h4>
+                        <p>Eric ADJA</p>
+                    </div>
+                    <div class="annuaire-card">
+                        <h4>1995-1996</h4>
+                        <p>Joseph DJOGBENOU</p>
+                    </div>
+                    <div class="annuaire-card">
+                        <h4>1994-1995</h4>
+                        <p>Jean AYEVO</p>
+                    </div>
+                    <div class="annuaire-card">
+                        <h4>1992-1994</h4>
+                        <p>Séraphin AGBAHOUNGBATA</p>
+                    </div>
+                    <div class="annuaire-card">
+                        <h4>1991-1992</h4>
+                        <p>Issa MAMA-SANI</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>Fédération Nationale des Étudiants du Bénin</h5>
+            <p>&copy; 2024 FNEB. Tous droits réservés.</p>
+          </div>
+          <div class="col-md-4">
+            <h5>Informations légales</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-white">Mentions légales</a></li>
+              <li><a href="#" class="text-white">Gestion des cookies</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Suivez-nous</h5>
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a
+                  href="https://www.facebook.com/fnebofficiel"
+                  target="_blank"
+                  class="text-white"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href="https://wa.me/+22966056694"
+                  target="_blank"
+                  class="text-white"
+                  ><i class="fab fa-whatsapp"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="tel:+22966056694" class="text-white"
+                  ><i class="fas fa-phone"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>

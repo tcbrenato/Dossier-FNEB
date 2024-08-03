@@ -1,0 +1,72 @@
+/* institutions.css */
+
+body {
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .navbar {
+        background-color: white;
+    }
+    
+    .nav-link {
+        color: #0117FE !important;
+        font-weight: bold;
+    }
+    
+    .nav-link:hover {
+        color: #000080 !important; /* Adjust hover color if needed */
+    }
+    
+    #adhere-button {
+        background-color: #0117FE;
+        color: white !important;
+        font-weight: bold;
+    }
+    
+    .dropdown-menu a:hover {
+        background-color: #0117FE;
+        color: white !important;
+    }
+    background-color: #0117FE;
+}
+
+h2{
+    color: #ffffff;
+}
+.institution-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.institution-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card-header {
+    background-color: #031519; /* Couleur de fond du logo */
+    color: #ffffff;
+}
+.btn-more-details {
+    background-color: #001eff; /* Couleur de fond du logo */
+    color: #ffffff;
+    border: none;
+}
+.btn-more-details:hover {
+    background-color: #003a47; /* Couleur légèrement plus sombre pour l'effet hover */
+}
+
+
+
+
+.bg-gradient-primary {
+    background: linear-gradient(to right, #0044cc, #00aaff);
+}
+
+.bg-gradient-warning {
+    background: linear-gradient(to right, #ffaa00, #ffcc00);
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+

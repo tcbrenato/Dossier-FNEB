@@ -1,0 +1,67 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.nav-link {
+    color: #0117FE !important;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #000080 !important; /* Adjust hover color if needed */
+}
+
+#adhere-button {
+    background-color: #0117FE;
+    color: white !important;
+    font-weight: bold;
+}
+
+.dropdown-menu a:hover {
+    background-color: #0117FE;
+    color: white !important;
+}
+
+h2 {
+    color: #195885;
+    font-weight: bold;
+}
+
+.action-program {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.action-program:hover {
+    transform: translateY(-10px);
+}
+
+.action-program .card-title {
+    color: #195885;
+    font-weight: bold;
+}
+
+.action-program .card-text {
+    font-size: 0.9em;
+    color: #333;
+}
+
+.action-program .btn {
+    background-color: #ffcc00;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: background-color 0.2s;
+}
+
+.action-program .btn:hover {
+    background-color: #e6b800;
+}
